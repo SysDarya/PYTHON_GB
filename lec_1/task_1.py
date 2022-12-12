@@ -5,3 +5,14 @@
 # m = 750
 # Output:
 # 2
+
+# import math 
+# n = int(input('Введите n >>> '))
+# m = int(input('Введите m >>> '))
+# t = math.ceil(m/n)
+# print(t)
+
+n = int(input('Введите n >>> '))
+m = int(input('Введите m >>> '))
+t = (m + n - 1) // n
+print(t)
